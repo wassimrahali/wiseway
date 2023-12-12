@@ -1,15 +1,6 @@
-<IfModule mod_rewrite.c>
-    RewriteEngine On
-    RewriteBase /e-learnnigprojet/
+RewriteEngine On
 
-    # Redirect /login.php to /login
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteCond %{REQUEST_FILENAME}.php -f
-    RewriteRule ^(.+)$ $1.php [L]
+RewriteCond %{REQUEST_FILENAME} !-f 
+RewriteCond %{REQUEST_FILENAME} !-d 
 
-    # Redirect /admin.php to /admin
-    RewriteRule ^admin/?$ admin.php [L]
-
-    # Add other rewrite rules for your URLs as needed
-
-</IfModule>
+RewriteRule ^ /index.php [L]
