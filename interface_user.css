@@ -1,0 +1,493 @@
+body {
+    background-color: #fff;
+    font-family: Segoe UI;
+    overflow-x: hidden;
+
+}
+.navbar-brand span{
+    margin-left: 10px;
+    color: #AF2F64;
+}
+.about-section {
+    background-color: #AF2F64;
+    margin-bottom: 120px;
+}
+
+.about-section h1,
+.about-section p {
+    color: white;
+    text-align: center;
+}
+
+.about-section h1 {
+    font-size: 32px;
+    margin-top: -250px;
+    margin-bottom: 30px;
+}
+
+.about-section p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.about-section .container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+
+
+.footer {
+    background-color: #00B2D4;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer p {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.footer ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.footer ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+/* Media queries for responsiveness */
+@media (max-width: 768px) {
+    .about-section h1 {
+        padding-left: 0;
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .about-section p {
+        padding-left: 0;
+    }
+
+    .about-section .container {
+        padding: 15px;
+    }
+
+}
+@media (min-width: 1200px) {
+    .about-section {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; /* Adjusted to space-between for placing items at both ends */
+        padding: 30px;
+    }
+
+    .about-section h1 {
+        font-size: 40px;
+        text-align: left; /* Align text to the right */
+        margin-left: 300px;
+        padding-bottom: 10px;
+    }
+
+    .about-section p {
+        font-size: 18px;
+        text-align: left; /* Align text to the right */
+        margin-left: 300px;
+        padding-bottom: 10px;
+
+
+
+    }
+
+    .about-section .container {
+        padding: 20px; /* Increase padding for larger screens */
+        max-width: 60%; /* Adjusted max-width for the container */
+    }
+
+    .about-section img {
+        max-width: 400px; /* Increase the maximum width of the image for larger screens */
+        width: 100%; /* Make the image responsive */
+        margin-left: -200px; /* Add some space between the image and text */
+
+    }
+    .nav-link {
+        font-family: 'Calibri Light', sans-serif;
+        transition: color 0.3s, border-bottom 0.3s, margin-bottom 0.3s;
+        border-bottom: 2px solid transparent; /* Initial border-bottom with no color */
+        margin-bottom: -2px; /* Offset to hide the initial border-bottom */
+
+
+    }
+    .nav-link:hover,
+    .nav-link:visited,
+    .nav-link:focus{
+
+        color: #AF2F64;
+        border-bottom: 2px solid #AF2F64;
+
+    }
+}
+
+
+.custom-enroll-btn {
+    background-color: #AF2F64;
+    color: #ffffff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+
+.custom-enroll-btn:hover {
+    background-color: #41B783;
+    color: white;
+}
+
+.custom-enroll-btn:active {
+    background-color: #e5a80d;
+    color: #ffffff;
+}
+
+
+#profileDropdown{
+    padding: 4px 18px 5px;
+    border-radius: 50px;
+    background: #AF2F64;
+    color: white;
+    font-weight: 400;
+    margin-left: 50px;
+
+}
+.navbar-brand img {
+    margin-right: 20px;
+    align-items: center;
+}
+
+.navbar-brand span {
+    font-size: 1.1em;
+    font-weight: bold;
+    color:  #AF2F64;
+    margin-bottom:200px;
+}
+.course-card {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    min-height: 550px;
+    background-color: white;
+}
+.course-card img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.course-card h3 {
+    color: #1F1E1F;
+
+}
+
+.course-card p {
+    color: #1F1E1F;
+
+ 
+
+}
+
+.course-card .price {
+    color: #AF2F64;
+    font-weight: bold;
+    text-decoration: line-through;
+
+}
+.course-card .free {
+    color: #41B783;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: "Segoe UI";
+
+}
+
+.custom-navbar {
+    background-color: #F4ECEF;
+}
+.custom-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(175,47,100)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+
+.custom-toggler.navbar-toggler {
+    border-color: #AF2F64;
+    color:  #AF2F64;
+}
+ h3 {
+    color: #AF2F64;
+}
+
+
+
+.section-title {
+    color: #AF2F64;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 20px; 
+}
+
+
+
+
+.course-card img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+
+.lessons-section {
+    margin-top: 30px;
+}
+
+.lessons-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.lessons-section li {
+    border-bottom: 1px solid #ddd;
+    padding: 15px 0;
+}
+
+.lessons-section li:last-child {
+    border-bottom: none;
+}
+
+.embed-responsive-16by9 {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.embed-responsive-16by9 iframe,
+.embed-responsive-16by9 video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.lesson-item {
+    margin-bottom: 20px; 
+    border: 1px solid #ccc; 
+    padding: 10px;
+    border-radius: 5px; 
+}
+
+.lesson-description {
+    margin-top: 15px;
+}
+
+.watch-lesson-btn {
+    margin-top: 15px; 
+}
+.arrow-container a{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    cursor: pointer;
+    font-size:40px;
+    color:#FAB555;
+    transition: opacity 0.3s;
+}
+
+.arrow-container a:hover {
+    opacity: 1;
+    color: #AF2F64;
+}
+.dropdown-item {
+    font-family: "Segoe UI";
+    font-size: 16px;
+    padding: 8px 24px;
+
+}
+.dropdown-item i {
+    color: #AF2F64;
+
+
+}
+
+.dropdown-item:hover,
+.dropdown-item:visited,
+.dropdown-item:focus {
+    background-color: #F7EAEF; 
+    font-family: "Segoe UI";
+    font-size: 16px;
+    padding: 8px 24px;
+    color: black;
+
+
+}
+@keyframes imageAnimation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.fluid-image {
+    max-width: 100%;
+    height: auto;
+    animation: imageAnimation 5s infinite; 
+}
+.nav-item.dropdown .dropdown-toggle > img {
+    margin-right: 10px;
+}
+.nav-link {
+    display: flex;
+    align-items: center;
+}
+
+.nav-link img {
+    margin-right: 5px;
+}
+
+.nav-link span {
+    color: white;
+    padding-top: -10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+    .about-section img {
+        max-width: 350px; 
+        width: 100%;
+        margin-left: 20px;
+        margin-top: 40px;
+        margin-bottom: 35px;
+
+    }
+    .about-section h1 {
+        padding-left: 0;
+        font-size: 24px;
+        margin-top: 0;
+        margin-bottom: 35px;
+    }
+    .about-section p {
+        margin-bottom: 35px;
+    }
+    .about-section .container {
+        margin-bottom: 35px;
+    }
+
+}
+
+
+
+ .close {
+     position: absolute;
+     top: 15px;
+     right: 15px;
+     font-size: 1.5rem;
+     color:  white; 
+     cursor: pointer;
+
+ }
+
+.close:hover {
+    color: #AF2F64;
+}
+
+
+ #modalForm {
+     background: rgba(0, 0, 0, 0.5);
+ }
+
+.modal-content {
+    background-color: #fff;
+    border-radius: 10px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.modal-header {
+    background-color: #f8d7da; 
+    color: #212529;
+    border-bottom: 1px solid #f5c6cb; 
+}
+
+.modal-body {
+    padding: 20px;
+}
+
+.form-label {
+    font-weight: bold; 
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #212529; 
+    border: 1px solid #ffc107;
+}
+
+.modal-body img{
+    width: 250px;
+    margin-left: 100px;
+}
+
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #333333;
+  transition: opacity 26.75s, visibility 0.75s;
+}
+
+.loader--hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+.loader::after {
+  content: "";
+  width: 40px;
+  height: 40px;
+  border: 5px solid #dddddd;
+  border-top-color: #AF2F64;
+  border-radius: 50%;
+  animation: loading 3.75s ease infinite;
+}
+
+@keyframes loading {
+  from {
+    transform: rotate(0turn);
+  }
+  to {
+    transform: rotate(1turn);
+  }
+}

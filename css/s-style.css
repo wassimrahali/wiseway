@@ -1,0 +1,240 @@
+
+body {
+    background-color: #fff;
+}
+
+.form-body {
+    background-color: #fff;
+}
+
+
+
+
+
+
+.form-holder {
+    margin-left: 50px;
+}
+
+
+
+.form-content {
+    background-color: #fff;
+}
+
+.form-content .form-group {
+    color: #AF2F64;
+}
+
+.form-content .form-items {
+    max-width: 600px;
+    text-align: left;
+}
+
+.form-content .form-icon {
+    margin-top: calc(-42px - 35px);
+}
+
+.form-content h3 {
+    color: #AF2F64;
+    text-align: left;
+}
+
+.form-content p {
+    color: #AF2F64;
+    text-align: left;
+}
+
+.form-content label {
+    color: #AF2F64;
+    text-align: left;
+}
+
+.form-content .page-links a {
+    color: #AF2F64;
+}
+
+.form-content .page-links a:after {
+    background-color: rgba(222, 222, 222, 0.7);
+}
+
+
+.form-content input, .form-content .dropdown-toggle.btn-default {
+    border: 1px solid #C3C3C3;
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+.form-content textarea {
+    border: 1px solid #C3C3C3;
+    background-color: #fff;
+    color: #000;
+}
+
+
+.form-content .custom-file-label {
+    border: 1px solid #C3C3C3;
+    background-color: #fff;
+    color: #000;
+}
+
+.form-content .custom-file-label:after {
+    color: #AF2F64;
+}
+
+
+
+.form-content input[type=checkbox]:not(:checked) + label, .form-content input[type=checkbox]:checked + label, .form-content input[type=radio]:not(:checked) + label, .form-content input[type=radio]:checked + label {
+    color: #606060;
+    font-weight: 400;
+}
+
+.form-content input[type=checkbox]:checked + label, .form-content input[type=radio]:checked + label {
+    color: #000;
+}
+
+
+
+.form-content input[type=checkbox]:not(:checked) + label:after, .form-content input[type=checkbox]:checked + label:after {
+    color: #fff;
+}
+
+.form-content input[type=radio]:not(:checked) + label:after, .form-content input[type=radio]:checked + label:after {
+    background-color: #fff;
+}
+
+.form-content .custom-options input[type=checkbox]:not(:checked) + label, .form-content .custom-options input[type=checkbox]:checked + label, .form-content .custom-options input[type=radio]:not(:checked) + label, .form-content .custom-options input[type=radio]:checked + label {
+    color: #606060;
+    background-color: #F7F7F7;
+}
+
+
+
+.form-content .form-button .ibtn {
+    background-color: #AF2F64;
+    color: #fff;
+    -webkit-box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+}
+
+.form-content .form-button .ibtn:hover, .form-content .form-button .ibtn:focus {
+    background-color:#AF2F64;
+    color: #fff;
+    -webkit-box-shadow: 0 5px 6px rgba(80, 182, 255, 0.31);
+    box-shadow: 0 5px 6px rgba(80, 182, 255, 0.31);
+}
+
+.form-content .form-button a {
+    color: #000;
+}
+
+.form-content .other-links span {
+    color: #000;
+}
+
+.form-content .other-links a {
+    color: #000;
+}
+
+.form-content .form-sent .tick-holder .tick-icon {
+    background-color: rgba(233, 253, 214, 0);
+}
+
+.form-content .form-sent .tick-holder .tick-icon:before {
+    background-color: #AF2F64;
+}
+
+.form-content .form-sent .tick-holder .tick-icon:after {
+    background-color: #AF2F64;
+}
+
+.form-content .form-sent h3 {
+    color: #000;
+}
+
+.form-content .form-sent p {
+    color: #000;
+}
+
+.form-content .form-sent .info-holder {
+    color: #000;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+.form-content .form-sent .info-holder span {
+    color: #000;
+}
+
+.form-content .form-sent .info-holder a {
+    color: #000;
+}
+
+@keyframes tick-anime3 {
+    0% {
+        background-color: rgba(233, 253, 214, 0);
+        -webkit-transform: rotate(35deg) scale(2);
+        -moz-transform: rotate(35deg) scale(2);
+        -ms-transform: rotate(35deg) scale(2);
+        transform: rotate(35deg) scale(2);
+    }
+
+    100% {
+        background-color: #E9FDD6;
+        -webkit-transform: rotate(45deg) scale(1);
+        -moz-transform: rotate(45deg) scale(1);
+        -ms-transform: rotate(45deg) scale(1);
+        transform: rotate(45deg) scale(1);
+    }
+}
+
+.alert {
+    color: #000;
+}
+
+
+
+.alert.alert-secondary {
+    background-color: #f0f0f0;
+    border-color: #8e9396;
+}
+
+.alert.alert-secondary hr {
+    border-top-color: #8e9396;
+}
+
+.alert.alert-success {
+    background-color: #F7FFF0;
+    border-color: #AF2F64;
+}
+
+.alert.alert-success hr {
+    border-top-color: #AF2F64;
+}
+
+
+
+/* -----------------------------------
+    2 - Responsive Styles
+------------------------------------*/
+@media (max-width: 992px) {
+    .form-holder {
+        margin-left: 0;
+    }
+
+    .website-logo {
+        top: 50px;
+        left: 50px;
+        right: initial;
+        bottom: initial;
+    }
+
+    .website-logo .logo {
+        background-image: url("../images/logo-light.svg");
+    }
+
+    .form-body.without-side .website-logo .logo {
+        background-image: url("../images/logo-light.svg");
+    }
+}
