@@ -1,5 +1,5 @@
 # wiseway
-**WiseWay** is an e-learning website. This project was created in school using PHP and SQL as an academic project.
+**WiseWay** <p style="color:blue">is an e-learning website. </p>This project was created in school using PHP and SQL as an academic project.
 
 ![image](https://github.com/wassimrahali/wiseway/assets/140222867/dd91518a-8314-4e39-b9c2-8e88070a80c1)
 
